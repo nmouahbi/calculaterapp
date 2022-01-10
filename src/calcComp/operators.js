@@ -8,7 +8,6 @@ export default function operators(props) {
         <button onClick={ () => props.updateCalc('+')}>+</button>
         <button onClick={ () => props.updateCalc('-')}>-</button>
         <button onClick={ () => props.updateCalc('C')}>C</button>
-        <button onClick = {props.DeleteLast}>DEL</button>
      </div>
     )
 }
